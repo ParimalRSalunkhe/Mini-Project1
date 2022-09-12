@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+    <style>
+      
+        .grid{    
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-gap: 1.2rem; 
+            text-align: center;
+            font-size: large;    
+        }
+        .box{
+            box-sizing: border-box;
+            padding: 2px;
+        }
+        body{
+            background: linear-gradient(purple,white,green);
+        }
+        #Header{
+            position:fixed;
+            top:0px;
+            width:100%;
+            height: 50px;
+            text-align: center;
+            background-image: linear-gradient(orange,white,green);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+            sans-serif;
+        }
+        #Footer1{
+            width: 100%;
+            position:fixed;
+            bottom: 0px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: left;
+            background-color: orange;         
+        }
+        #Footer2{
+            width: 100%;
+            position:fixed;
+            bottom: 0px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: right;
+        }
+    </style>
+</head>
+<body><br><br><br><br><br>
+    <div class="grid">
+        <div class="glass">
+            <img src="image1.jpg" width="300px" height="150px">
+            <div class="desc"><b>Taj Mahal (Aagra)</b></div>
+        </div>
+        <div class="glass">        
+            <img src="image2.jpg" width="300px" height="150px">
+            <div class="desc"><b>Qutub Minar (Delhi)</b></div>
+        </div>
+        <div class="glass">   
+            <img src="image3.jpg" width="300px" height="150px">
+            <div class="desc"><b>Victoria Memorial (West Bengal)</b></div>
+        </div>    
+        <div class="glass">    
+            <img src="image4.jpg" width="300px" height="150px">
+            <div class="desc"><b>Hava Mahal (Jaipur)</b></div>
+        </div>
+        <div class="glass">            
+            <img src="image5.jpg" width="300px" height="150px">
+            <div class="desc"><b>Red Fort (New Delhi)</b></div>
+        </div>
+        <div class="glass">              
+            <img src="image6.jpg" width="300px" height="150px">
+            <div class="desc"><b>Sanchi Stupa (Madhya Pradesh)</b></div>
+        </div>
+        <div class="glass">           
+            <img src="image7.jpg" width="300px" height="150px">
+            <div class="desc"><b>India Gate (New Delhi)</b></div>
+        </div>
+        <div class="glass">                     
+            <img src="image8.jpg" width="300px" height="150px">
+            <div class="desc"><b>Bibi ka Maqbara (Aurangabad)</b></div>
+        </div>
+        <div class="glass">                    
+            <img src="image9.jpg" width="300px" height="150px">
+            <div class="desc"><b>Shore Temple (Mahabalipuram)</b></div>
+        </div>
+        <div class="glass">                    
+            <img src="image10.jpg" width="300px" height="150px">
+            <div class="desc"><b>Hampi (Karnataka)</b></div>
+        </div>
+        <div class="glass">                    
+            <img src="image11.jpg" width="300px" height="150px">
+            <div class="desc"><b>Golden Temple (Amritsar)</b></div>
+        </div>
+        <div class="glass">                    
+            <img src="image12.jpg" width="300px" height="150px">
+            <div class="desc"><b>Jama Masjid (Delhi)</b></div>
+        </div>             
+    </div>        
+    <div>
+        <h2 id="Header">Historical Places in India</h2>
+    </div>
+    <div id="Footer1">
+        <h2>Thank you!</h2>
+    </div>
+    <div id="Footer2">
+        <h2>Designed and Devoloped by:- Parimal Salunkhe- </h2>
+    </div>
+
+</body>
+</html>
